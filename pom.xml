@@ -103,7 +103,7 @@
         <!-- Source: https://mvnrepository.com/artifact/io.jsonwebtoken/jjwt-impl -->
         <dependency>
             <groupId>io.jsonwebtoken</groupId>
-            <artifactId> jjwt-impl</artifactId>
+            <artifactId>jjwt-impl</artifactId>
             <version>0.13.0</version>
             <scope>runtime</scope>
         </dependency>
@@ -147,7 +147,11 @@
             <scope>runtime</scope>
         </dependency>
 
-    </dependencies>
+        <dependency>
+            <groupId>io.github.cdimascio</groupId>
+            <artifactId>dotenv-java</artifactId>
+            <version>3.0.0</version>
+        </dependency>    </dependencies>
 
     <build>
         <plugins>
